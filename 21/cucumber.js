@@ -1,28 +1,20 @@
-// module.exports = {
-//   default: {
-//     requireModule: ["ts-node/register"],
+module.exports = {
+  default: {
+    require: [
+      "features/support/**/*.js",
+      "features/step_definations/**/*.js"
+    ],
 
-//     require: [
-//       "features/step-definitions/*.ts",
-//       "features/support/*.ts"
-//     ],
+    format: [
+      "progress-bar",
+      "summary",
+      "json:reports/cucumber-report.json",
+      "html:reports/cucumber-report.html"
+    ],
 
-//     format: [
-//       "progress-bar",
-//       "summary",
-//       "html:reports/cucumber-report.html",
-//       "json:reports/cucumber-report.json"
-//     ],
-
-//     publishQuiet: true,
-
-//     dryRun: false,
-//     failFast: false,
-
-//     parallel: 1,
-
-//     retry: 1,
-
-//     strict: true
-//   }
-// };
+    publishQuiet: true,
+    retry: 0,
+    parallel: 1,
+    failFast: false
+  }
+};

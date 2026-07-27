@@ -1,0 +1,207 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ecommerce-validations;placing-order",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Placing Order",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 279683600
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3164601299
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a login to Ecommerce application with \"aman1221@gmail.com\" and \"Aman@2005\"",
+            "match": {
+              "location": "features\\step_definations\\ecommerce.steps.js:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1596412399
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Add \"ADIDAS ORIGINAL\" to Cart",
+            "match": {
+              "location": "features\\step_definations\\ecommerce.steps.js:17"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 125256598
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify \"ADIDAS ORIGINAL\" is displayed in the Cart",
+            "match": {
+              "location": "features\\step_definations\\ecommerce.steps.js:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4520803098
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter valid details, apply coupon \"rahulshettyacademy\" and placed the order",
+            "match": {
+              "location": "features\\step_definations\\ecommerce.steps.js:33"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 340948599
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify order is present in the order history",
+            "match": {
+              "location": "features\\step_definations\\ecommerce.steps.js:46"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 82979499
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ecommerce-validations;placing-order",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Placing Order",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 228131199
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4641797898
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a login to Ecommerce application with \"aman12221@gmail.com\" and \"Aman@1234\"",
+            "match": {
+              "location": "features\\step_definations\\ecommerce.steps.js:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1565989899
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Add \"ADIDAS ORIGINAL\" to Cart",
+            "match": {
+              "location": "features\\step_definations\\ecommerce.steps.js:17"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 115129998
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify \"ADIDAS ORIGINAL\" is displayed in the Cart",
+            "match": {
+              "location": "features\\step_definations\\ecommerce.steps.js:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4540611699
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter valid details, apply coupon \"rahulshettyacademy\" and placed the order",
+            "match": {
+              "location": "features\\step_definations\\ecommerce.steps.js:33"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 330571799
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify order is present in the order history",
+            "match": {
+              "location": "features\\step_definations\\ecommerce.steps.js:46"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 74024000
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "ecommerce-validations",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ecommerce Validations",
+    "tags": [],
+    "uri": "features\\Ecommerce.feature"
+  }
+]
